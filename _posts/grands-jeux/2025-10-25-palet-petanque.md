@@ -9,4 +9,4 @@ description: |
   Dimensions : 122 x 42 cm
 categorie: "grands-jeux"
 ---
-![Palet pétanque]({site.baseurl}/img/posts/Palet-petanque.jpg)
+![Palet pétanque](assets/img/posts/Palet-petanque.jpg)

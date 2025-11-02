@@ -12,4 +12,4 @@ description: |
   Fourni avec 6 palets en laiton.
 categorie: "grands-jeux"
 ---
-![Tri sabots]({site.baseurl}/img/posts/Tri-sabots.jpg)
+![Tri sabots](assets/img/posts/Tri-sabots.jpg)

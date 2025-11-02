@@ -7,4 +7,4 @@ description: |
   Ensemble, collaborer pour attraper les blocs et les superposer pour construire une grande tour sans que celle-ci ne s'écroule !
 categorie: "grands-jeux"
 ---
-![Tour de Froebel]({site.baseurl}/img/posts/Tour-froebel.jpg)
+![Tour de Froebel](assets/img/posts/Tour-froebel.jpg)

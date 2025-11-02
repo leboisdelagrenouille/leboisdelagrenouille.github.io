@@ -7,4 +7,4 @@ description: |
   Dimensions : 120 x 60 cm
 categorie: "grands-jeux"
 ---
-![Shuffle puck]({site.baseurl}/img/posts/Shuffle-puck.jpg)
+![Shuffle puck](assets/img/posts/Shuffle-puck.jpg)

@@ -8,4 +8,4 @@ description: |
   Dimensions : 52,5 x 36 cm
 categorie: "grands-jeux"
 ---
-![2 poules sur 1 mur]({site.baseurl}/img/posts/Deux-poules.jpg)
+![2 poules sur 1 mur](assets/img/posts/Deux-poules.jpg)
