@@ -10,4 +10,4 @@ description: |
   11 x 33 cm
 categorie: "jeux"
 ---
-![Puluc-hetre.png]({site.baseurl}/assets/img/posts/Puluc-hetre.png)
+![Puluc-hetre.png](assets/img/posts/Puluc-hetre.png)

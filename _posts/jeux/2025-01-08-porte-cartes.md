@@ -9,4 +9,4 @@ description: |
   9 x 30 cm
 categorie: "jeux"
 ---
-![Porte-cartes.png]({site.baseurl}/assets/img/posts/Porte-cartes.png)
+![Porte-cartes.png](assets/img/posts/Porte-cartes.png)

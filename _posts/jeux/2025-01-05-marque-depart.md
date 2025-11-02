@@ -9,4 +9,4 @@ description: |
   Fabriquée en pin ou en sapin
 categorie: "jeux"
 ---
-![Marque-depart.png]({site.baseurl}/assets/img/posts/Marque-depart.png)
+![Marque-depart.png](assets/img/posts/Marque-depart.png)

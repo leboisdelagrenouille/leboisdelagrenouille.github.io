@@ -9,4 +9,4 @@ description: |
   Pour cela, il vous faut prendre des risques… mais pas trop ! Plus vous lancez le dé, plus vous pouvez perdre des bâtonnets, mais au risque de faire le lancer de trop, qui vous fera récupérer l'ensemble des pions présents sur le couvercle. !
 categorie: "jeux"
 ---
-![Tout-dans-le-trou.png]({site.baseurl}/assets/img/posts/Tout-dans-le-trou.png)
+![Tout-dans-le-trou.png](assets/img/posts/Tout-dans-le-trou.png)

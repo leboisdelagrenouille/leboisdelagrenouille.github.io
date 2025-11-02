@@ -10,4 +10,4 @@ description: |
   Dimensions : 122.5 x 43 cm
 categorie: "jeux"
 ---
-![Passe-trappe.png]({site.baseurl}/assets/img/posts/Passe-trappe.png)
+![Passe-trappe.png](assets/img/posts/Passe-trappe.png)
