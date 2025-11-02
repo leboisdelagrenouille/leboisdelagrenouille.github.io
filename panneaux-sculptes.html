@@ -1,0 +1,103 @@
+---
+layout: default
+title: Les panneaux sculptés du bois de la grenouille
+---
+
+<!-- Produits - Jeux -->
+<div class="container py-3">
+    <div class="row">
+        <div class="titre-page-interne col-md-12">
+            <h1>Panneaux <span>sculptés</span></h1>
+            <p><br>Je vous propose la réalisation de panneaux entièrement sculptés à la main.
+                <br><br>Que ce soit pour le nom des rues de votre village, une enseigne, de la signalétique, ou tout
+                autre
+                demande, ces panneaux donneront un cachet artisanal et authentique à l'endroit où vous les installerez!
+                <br><br>Je peux sculpter une inscription (un nom, un mot, une phrase, une date…) pour un anniversaire,
+                un
+                mariage, un départ à la retraite, Noël...
+                <br>Pensez-y pour un cadeau personnalisé qui restera gravé dans le cœur et dans le temps.
+                <br><br>Je sélectionne le bois adéquat, ainsi qu'un vernis professionnel, pour que votre panneau soit
+                durable et de haute qualité.
+                <br><br>Pour toute demande de devis, vous pouvez m'envoyer un message via le formulaire de cette page
+        </div>
+    </div>
+</div>
+<!-- Gallery Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <p class="section-title bg-white text-center text-primary px-3"></p>
+            <h2 class="mb-5">Mes panneaux en images</h2>
+        </div>
+
+        <div class="gallery-grid" id="galerie-panneaux-sculptes">
+            {% for img in site.static_files %}
+            {% if img.path contains 'assets/img/galerie-panneaux-sculptes' and (img.extname == '.jpg' or img.extname
+            == '.png') %}
+            <a href="{{ img.path }}" data-lightbox="gallery" class="wow fadeInUp">
+                <img src="{{ img.path }}" alt="">
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- Gallery End -->
+
+<div class="container py-3">
+    <div class="row">
+        <!-- Form start -->
+        <div class="bg-light col-md-12">
+            <div id="me-contacter" class="container footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
+                <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h2 class="mb-5">Contactez-moi</h2>
+                </div>
+
+                <form action="https://formspree.io/f/mkgwnwag" method="POST">
+                    <div class="row col-md-12 g-3">
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input name="name" type="text" class="form-control" id="name"
+                                    placeholder="Votre NOM et Prénom" required>
+                                <label for="name">Votre NOM et Prénom</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="email" name="email" class="form-control" id="email"
+                                    placeholder="Votre Email" required>
+                                <label for="email">Votre email</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" name="objet" class="form-control" id="objet"
+                                    value="Panneaux sculptés" required disabled>
+                                <label for="email">Sujet</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input class="form-control" id="phone-number" name="phone-number" />
+                                <label for="phone-number">Votre numéro de téléphone</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea name="message" class="form-control" placeholder="Votre message" id="message"
+                                    style="height: 250px" required></textarea>
+                                <label for="message">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button class="btn btn-secondary rounded-pill py-3 px-5" type="submit">Envoyer votre
+                                message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Form End -->
+    </div>
+</div>

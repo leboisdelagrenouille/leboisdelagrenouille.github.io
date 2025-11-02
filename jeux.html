@@ -1,0 +1,121 @@
+---
+layout: default
+title: Les jeux en bois du bois de la grenouille
+---
+
+<!-- Produits - Jeux -->
+<div class="container-fluid py-3">
+  <div class="titre-page-interne">
+    <h1>Jeux <span>en bois</span></h1>
+    <p class="sous-titre-page-interne">Retrouvez ci-dessous toutes mes créations de jeux en bois !
+      <br>Pour passer commande, vous pouvez m'envoyer un message <a href="/#me-contacter">en cliquant ici</a>
+    </p>
+  </div>
+  <div class="colonne_produit">
+    <div class="row g-5">
+      {% assign produits = site.posts | where: "categorie", "jeux" | sort: "title" %}
+      {% for produit in produits %}
+        {% assign lightbox_id = "produit-" | append: forloop.index %}
+        <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+          <article class="d-flex flex-column justify-content-between">
+
+            {%- comment -%}
+              ✅ On essaie de trouver une image dans le contenu du post
+              (ex : une balise <img src="...">)
+            {%- endcomment -%}
+            {% assign img = produit.content | split: 'src="' | last | split: '"' | first %}
+            {% if img contains '.jpg' or img contains '.png' %}
+              <a class="text-center"
+                href="assets/{{ img }}"
+                data-lightbox="{{ lightbox_id }}"
+                data-title='Image agrandie de "{{ produit.title }}"'>
+                <img src="assets/{{ img }}" alt="Image du produit {{ produit.title }}">
+              </a>
+            {% endif %}
+
+            {% if produit.sur-titre %}
+              <p class="produit-type">{{ produit.sur-titre }}</p>
+            {% endif %}
+
+            <div class="titre_produit">
+              <h2 class="text-center">{{ produit.title }}</h2>
+              <span>{{ produit.prix }}</span>
+            </div>
+
+            <div class="produit-content">
+              {% if produit.description %}
+                <p>{{ produit.description | newline_to_br }}</p>
+              {% endif %}
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div id="grands-jeux-en-bois" class="titre-page-interne">
+    <h2>Grands jeux <span>en bois</span></h2>
+    <p class="sous-titre-page-interne">Qu'ils soient d'adresse, de réflexion ou encore coopératifs, d'intérieur ou d'extérieur, mes grands jeux en bois, de par leur taille imposante donneront une dimension ludique hors du commun à vos retrouvailles en famille et entre amis.
+      <br>Pour passer commande, vous pouvez m'envoyer un message en cliquant <a href="/#me-contacter">ici</a>
+    </p>
+  </div>
+  <div class="colonne_produit">
+    <div class="row g-5">
+      {% assign produits = site.posts | where: "categorie", "grands-jeux" | sort: "title" %}
+      {% for produit in produits %}
+        {% assign lightbox_id = "produit-" | append: forloop.index %}
+        <div class="col-12 col-md-6 col-lg-4 wow fadeIn" data-wow-delay="0.1s">
+          <article class="d-flex flex-column justify-content-between">
+
+            {%- comment -%}
+              ✅ On essaie de trouver une image dans le contenu du post
+              (ex : une balise <img src="...">)
+            {%- endcomment -%}
+            {% assign img = produit.content | split: 'src="' | last | split: '"' | first %}
+            {% if img contains '.jpg' or img contains '.png' %}
+              <a class="text-center"
+                href="assets/{{ img }}"
+                data-lightbox="{{ lightbox_id }}"
+                data-title='Image agrandie de "{{ produit.title }}"'>
+                <img src="assets/{{ img }}" alt="Image du produit {{ produit.title }}">
+              </a>
+            {% endif %}
+
+            {% if produit.sur-titre %}
+              <p class="produit-type">{{ produit.sur-titre }}</p>
+            {% endif %}
+
+            <div class="titre_produit">
+              <h2 class="text-center">{{ produit.title }}</h2>
+              <span>{{ produit.prix }}</span>
+            </div>
+
+            <div class="produit-content">
+              {% if produit.description %}
+                <p>{{ produit.description | newline_to_br }}</p>
+              {% endif %}
+            </div>
+          </article>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12" style="text-align: center; max-width:1000px; margin-left: auto; margin-right: auto;">
+    <p style="font-size: 1.2rem;">
+      <b>Mes grands jeux en bois sont <i>sur commande uniquement.</i></b>
+      <br><br>Les prix sont à titre indicatif, ces derniers peuvent changer en fonction de votre demande.<br>(personnalisation sculptée, essence de bois utilisée, dimensions etc)
+      <br><br>Par exemple, je peux y sculpter une inscription (un nom, un mot, une phrase, une date…) pour un anniversaire, un mariage, un départ à la retraite, Noël …
+      <br>Pensez-y pour un cadeau personnalisé qui restera gravé dans le cœur et dans le temps.
+      <br><br>Vous possédez un beau morceau de bois, auquel vous êtes sentimentalement attaché, et vous aimeriez lui donner une seconde vie ? Nous pouvons imaginer ensemble en quel jeu je pourrais le transformer, pour qu'il reste dans la famille.
+      <br><br>Je propose également un service de réparation/restauration si l'un de vos jeux en bois familial traînant au grenier a besoin d'un coup de jeunesse !
+      <br><br>Contactez-moi pour obtenir un devis <a href="/#me-contacter">en cliquant ici</a>.
+      <br><br><br></p>
+    <p style="font-size:1.4rem">Je fabrique notamment des grands jeux pour la ludothèque itinérante Bilboquet en vadrouille qui les propose en animation ou à la location.
+      <br>Allez visiter son site !<br>
+      <img class="img-fluid" src="assets/img/Logo-Bilboquet.png" alt="logo bilboquet">
+      <br><a href="https://www.bilboquet-en-vadrouille.fr" target="_blank">www.bilboquet-en-vadrouille.fr</a>
+    </p>
+  </div>
+  </div>
+</div>
