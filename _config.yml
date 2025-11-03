@@ -52,7 +52,7 @@ prose:
           placeholder: "Entrer le prix"
       - name: "description"
         field:
-          label: "Text"
+          label: "Description du produit"
           element: "textarea"
           placeholder: "Entrer la descrition du produit"
       - name: "categorie"
