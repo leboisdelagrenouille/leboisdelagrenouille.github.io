@@ -736,6 +736,10 @@ a.portfolio-link{
 Bois de la grenouille
 *****/
 
+#logo-le-bois-de-la-grenouille{
+    max-height: 100px;
+}
+
 /**** titre general bandeau ***/
 .titre-page-interne{
     display: flex;
