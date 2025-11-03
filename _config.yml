@@ -14,7 +14,7 @@ plugins:
 prose:
   rooturl: ''
   siteurl: "https://leboisdelagrenouille.github.io"
-  media: 'img/posts'
+  media: 'assets/img/posts'
   metadata:
     _posts:
       - name: "sur-titre"
