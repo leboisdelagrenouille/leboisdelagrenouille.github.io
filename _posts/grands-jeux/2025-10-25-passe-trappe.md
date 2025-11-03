@@ -10,4 +10,4 @@ description: |
   Dimensions : 122.5 x 43 cm
 categorie: "grands-jeux"
 ---
-![Passe-trappe](assets/img/posts/Passe-trappe.jpg)
+![Passe-trappe](assets/img/posts/Passe-trappe.png)
