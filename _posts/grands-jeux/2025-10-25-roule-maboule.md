@@ -10,4 +10,4 @@ description: |
   Dimensions : 105 x 30 cm
 categorie: "grands-jeux"
 ---
-![Roule Maboule](assets/img/posts/Roule-maboule.jpg)
+![Roule Maboule](assets/img/posts/Roule-maboule.png)
