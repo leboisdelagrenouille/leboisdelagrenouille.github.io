@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Passe-trappe"
-prix: "150 €"
+prix: "230 €"
 description: |
   Jeu d’adresse et de rapidité pour deux joueurs.
   Rires garantis !

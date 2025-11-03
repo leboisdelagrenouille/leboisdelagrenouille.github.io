@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shuffle puck"
-prix: "170 €"
+prix: "230 €"
 description: |
   À la manière du air hockey, frappez le palet avec votre poussoir vers le but de l’adversaire pour marquer !
   Dimensions : 120 x 60 cm
