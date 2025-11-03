@@ -9,7 +9,7 @@ title: Page d'accueil - Le bois de la grenouille
         <div class="container">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <video id="video-accueil" src="assets/video/diapo-presentation-le-bois-de-la-grenouille.mp4" autoplay loop></video>
+                    <video id="video-accueil" src="assets/video/diapo-presentation-le-bois-de-la-grenouille.mp4" autoplay loop playsinline muted></video>
                 </div>
                 <div class="col-lg-6" data-wow-delay="">
                     <p class="section-title bg-white text-start text-primary pe-3">Artisanal & Éco-responsable</p>
@@ -198,3 +198,11 @@ title: Page d'accueil - Le bois de la grenouille
     </div>
     </div>
     <!-- Form End -->
+
+<button id="playvid" style="display: none;">Play</button>
+
+<script>
+    document.querySelector('#playvid').addEventListener('click', () => {
+        document.querySelector('video').play();
+    });
+</script>
