@@ -14,6 +14,24 @@ plugins:
 prose:
   rooturl: ''
   siteurl: "https://leboisdelagrenouille.github.io"
+  ignore:
+    - 404.html
+    - lib
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /assets/fonts
+    - /assets/css
+    - /assets/js
+    - /assets/video
+    - a-propos.html
+    - galerie-photos.html
+    - index.html
+    - jeux.html
+    - mentions-legales.html
+    - objets-deco.html
+    - panneaux-sculptes.html
+    - projets-personnalises.html
   media: 'assets/img/posts'
   metadata:
     _posts:
