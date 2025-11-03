@@ -649,10 +649,8 @@ h3,
 }
 
 #qui-suis-je img{
-    float: right;
     margin-left: 10px;
-    margin-bottom: 10px;
-    max-width: 500px;
+    margin-right: 10px;
 
 }
 
@@ -764,9 +762,17 @@ h1 span{
 }
 
 #grands-jeux-en-bois{
-    background-color: lightgrey;
+    background-color: #F2F2F2;
     padding: 20px 0;
 }
+
+@media all and (max-width: 1200px){
+    #grands-jeux-en-bois{
+    padding: 20px 40px;
+}
+}
+
+media all a
 
 /*** accueil **/
 
