@@ -42,11 +42,9 @@ prose:
           label: "Catégorie"
           element: "select"
           options:
-            - Jeux
-            - Objets déco
-            - Grands jeux en bois
-            - Panneaux sculptés
-            - Projet personnalisé
+            - jeux
+            - objets-deco
+            - grands-jeux
       - name: "layout"
         field:
           element: "hidden"
