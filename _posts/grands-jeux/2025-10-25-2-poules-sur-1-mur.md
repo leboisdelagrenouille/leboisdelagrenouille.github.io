@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "2 poules sur 1 mur"
-prix: "180 €"
+prix: "230 €"
 description: |
   À votre tour de jeu, enlevez une brique du mur, en n'utilisant qu’une seule main.
   Si une poule perchée sur le mur tombe, c’est perdu !
+  Chêne massif
   Dimensions : 52,5 x 36 cm
 categorie: "grands-jeux"
 ---
