@@ -10,7 +10,7 @@ description: >-
   
   Plateau en noyer noir avec incrustations en sapin
   
-  11 x 33 cm
+  33 x 11 cm
   
   Pions en hêtre, dés en chêne.
 categorie: jeux
