@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Roule Maboule
-prix: 150 €
+prix: 175 €
 description: >-
   En ouvrant/fermant délicatement les baguettes, vous devez faire avancer la
   boule, vers vous, en l’amenant le plus loin possible ! Ce jeu d’adresse et de
