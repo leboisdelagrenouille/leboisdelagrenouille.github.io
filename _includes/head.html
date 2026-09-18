@@ -13,7 +13,7 @@
     {% if page.image %}
             <meta property="og:image" content="{{ page.image | absolute_url }}" />
     {% else %}
-          <!-- Image par défaut si l'article n'en a pas (Remplacez par votre vrai lien) -->
+          <!-- Image par défaut si aucune de specifié dans le yml -->
           <meta property="og:image" content="{{ '/assets/img/logo-pour-partage.png' | absolute_url }}" />
     {% endif %}
 
